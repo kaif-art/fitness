@@ -1,0 +1,120 @@
+/* styles4.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #1e1e1e;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f97316;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: #f97316;
+}
+
+
+/* Membership Plans Section */
+
+.features {
+    padding: 2rem;
+    text-align: center;
+}
+
+.features h1 {
+    color: #f97316;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Cards Container */
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
+/* Individual Membership Card */
+
+.card {
+    background-color: #1f1f1f;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #f97316;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    margin: 0.5rem 0;
+}
+
+
+/* Join Now Button */
+
+.card button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #f97316;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #fb923c;
+}

@@ -1,0 +1,112 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #f97316;
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: #f97316;
+}
+
+.features {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.features h1,
+.features h2 {
+    text-align: center;
+    color: #f97316;
+}
+
+.features ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.features ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+
+/* Table styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 2rem;
+    background-color: #2a2a2a;
+}
+
+thead th {
+    background-color: #f97316;
+    padding: 0.75rem;
+    color: white;
+}
+
+tbody td {
+    padding: 0.75rem;
+    text-align: center;
+    border-bottom: 1px solid #3a3a3a;
+    color: #f0f0f0;
+}
+
+.cta-buttons {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto 0;
+    transition: background-color 0.3s;
+}
+
+.cta-buttons:hover {
+    background-color: #fb923c;
+}
